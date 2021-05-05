@@ -1,0 +1,55 @@
+/* Author: Prashant Sanjay Sarvi */
+.tabTitles{
+    background-color: '#DED93E';
+    opacity: '0.99';
+    border-radius: '10px';
+    color: black;
+}
+
+.CourseTabBar, .CourseTabBar a:hover{
+    border-color: transparent !important;
+}
+
+.CourseTabBar a:hover{
+    transform: scaleY(1.25);
+}
+
+#TabLink-tab-chapters{
+    background-color: rgba(255, 166, 0, 0.644) ;
+    border-color: transparent;
+    color: white;
+}
+#TabLink-tab-Qna{
+    background-color:rgba(224, 198, 104, 0.829) ;
+    border-color: transparent;
+}
+#TabLink-tab-Notes{
+    background-color:rgba(150, 188, 98, 0.534) ;
+    border-color: transparent;
+}
+#TabLink-tab-Discussions{
+    background-color:rgba(209, 152, 197, 0.884) ;
+    border-color: transparent;
+}
+
+.CourseTabs{
+    height: 70vh;
+    overflow-y: scroll;
+    overflow-x: hidden;
+    border: 5px solid black;
+}
+.CourseTabs::-webkit-scrollbar{
+    width:16px;
+    background-color:#ffffff00;
+} 
+.CourseTabs::-webkit-scrollbar-track {
+    background: #ffffff00; 
+    
+}
+.CourseTabs::-webkit-scrollbar-thumb {
+    background: #ffbe0aab;
+    border-radius: 10px;
+}
+.CourseTabs::-webkit-scrollbar-thumb:hover {
+    background: rgb(102, 112, 37)
+}

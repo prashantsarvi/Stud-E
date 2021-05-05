@@ -1,0 +1,12 @@
+
+/*
+Author : Nikunj Goenka
+*/
+
+#courseTitle{
+    color: white;
+}
+.CourseContainer{
+    overflow-y: scroll;
+    height: 70vh;
+}

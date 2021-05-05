@@ -1,0 +1,8 @@
+/* Author: Prashant Sanjay Sarvi */
+
+.app-data {
+    box-align: "center";
+    position: static;
+    bottom: 100px;
+    background-color: black;
+}
